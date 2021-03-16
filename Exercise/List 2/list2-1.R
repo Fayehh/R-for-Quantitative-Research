@@ -1,0 +1,15 @@
+rm=(list=ls())
+library(mosaic)
+library(readxl)
+L2E1 <- read_excel("D:/IM课程/Moodle 1.3/Exercises Excel files-20201118/Lecture 2/L2E1.xlsx")
+View(L2E1)
+attach(L2E1)
+Honey_ <- na.omit(Honey)
+DM_ <- na.omit(DM)
+Control_ <- na.omit(Control)
+TotalScore <- na.omit(TotalScore)
+Treatment <- Treatment
+#标准差函数
+sd(Honey_)
+sd(DM_)
+sd(Control_)
