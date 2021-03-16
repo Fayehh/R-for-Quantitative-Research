@@ -9,6 +9,7 @@ attach(L1E1)
 Ship <- Ship
 Cruise <- Cruise
 Score <- Score
-
+#绘制茎叶图
 stem(Score,scale=2)
+#绘制直方图
 gf_histogram( ~ Score, data = L1E1) 
