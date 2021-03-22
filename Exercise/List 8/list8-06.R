@@ -26,4 +26,4 @@ sd_
 range(AACC)
 0.71-0.06
 4*sd_
-#大约95%的y实际观测值都落在最小二乘预测值的2个标准差之内.距离均值波动2个sd,得到的width和range差不多大小，so it does not help very much in the prediction
+#绝大部分y实际观测值都落在最小二乘预测值的2个标准差之内.距离均值波动2个sd,得到的width和range差不多大小，so it does not help very much in the prediction
